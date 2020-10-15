@@ -3,8 +3,8 @@ package Game;
 import java.util.Scanner;
 
 public class Game {
-    public static void Game() {
-        int dicevalue = 0;
+    public static void TheGame() {
+        int dicevalue;
         Scanner scan = new Scanner(System.in);
         Dice d1 = new Dice(1);
         Dice d2 = new Dice(1);
