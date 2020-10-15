@@ -3,12 +3,12 @@ public class Field
 
     public static void main(String[] args)
     {
-        int n = 11;
+        int n = 2;
 
         switch (n)
         {
             case 2:
-                System.out.println("You climb the highest tower in the country, and at the top you find 250");
+                System.out.println("You climb the highest tower in the country. At the top you find 250");
                 break;
 
             case 3:
