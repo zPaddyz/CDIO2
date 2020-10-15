@@ -27,6 +27,6 @@ public class Player {
     public void setHasTurn(boolean hasTurn) {
         this.hasTurn = hasTurn;
     }
-
+    Wallet wallet = new Wallet();
 
 }
