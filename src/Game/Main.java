@@ -1,7 +1,7 @@
 package Game;
 
 import java.util.Scanner;
-public class main {
+public class Main {
     public static void main(String[] args){
         int dicevalue = 0;
         Scanner scan = new Scanner(System.in);

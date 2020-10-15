@@ -10,9 +10,7 @@ public class Wallet {
     }
     public void setPoint(int point) {
         // if the player roll 2 i.e two 1s then the player loses all his/her points
-        if(point != 2)  this.point += point;
-        else this.point = 0;
-
+        this.point += point;
     }
     //getPoint returns point and is required because point is set to private
     public int getPoint() {
