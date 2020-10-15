@@ -21,7 +21,6 @@ public class Player {
 
     //this player method is used to instantiate a new player
     public Player(){
-
     }
     //we use this method to change between each players turn
     public void setHasTurn(boolean hasTurn) {
