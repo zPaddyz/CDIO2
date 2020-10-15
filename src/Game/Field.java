@@ -1,12 +1,10 @@
+package Game;
 public class Field
 {
 
-    public static void main(String[] args)
+    public String fieldswitch(int n)
     {
-        int n = 11;
-
-        switch (n)
-        {
+        switch (n) {
             case 2:
                 System.out.println("You climb the highest tower in the country, and at the top you find 250");
                 break;
@@ -50,6 +48,11 @@ public class Field
             case 12:
                 System.out.println("You have inherited a goldmine that will make rich very fast. Till a start you get 650");
                 break;
+
+            default:
+                System.out.println("You climb the highest tower in the country, and at the top you find 250");
+                break;
         }
+        return "";
     }
 }

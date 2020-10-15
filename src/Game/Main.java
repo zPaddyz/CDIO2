@@ -7,6 +7,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Dice d1 = new Dice(1);
         Dice d2 = new Dice(1);
+        Field f1 = new Field();
         System.out.println("Vælg hvor mange sider din terning skal have");
         d1.setMAX(scan.nextInt());
         d2.setMAX(d1.getMAX());
@@ -24,7 +25,9 @@ public class Main {
                 {
                     dicevalue = dicevalue % 12;
                 }
-                //INDSÆT SWITCH STATEMENT HER:
+                System.out.println(dicevalue);
+                f1.fieldswitch(dicevalue);
+                break;
             }
             else //spiller 2:
             {
@@ -33,7 +36,9 @@ public class Main {
                 {
                     dicevalue = dicevalue % 12;
                 }
-                //INDSÆT SWITCH STATEMENT HER:
+                System.out.println(dicevalue);
+                f1.fieldswitch(dicevalue);
+                break;
             }
         }
     }
