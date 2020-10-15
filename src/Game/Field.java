@@ -5,13 +5,9 @@ public class Field
     public String fieldswitch(int n)
     {
         switch (n) {
-            case 2:
-                System.out.println("You climb the highest tower in the country, and at the top you find 250");
-                Money = 250;
-                break;
 
             case 3:
-                System.out.println("You fell in a crater and have to pay to get help to get out. You pay 100");
+                System.out.println("You fell in a crater and have to pay to get out. You pay 100");
                 Money = -100;
                 break;
 
@@ -21,18 +17,18 @@ public class Field
                 break;
 
             case 5:
-                System.out.println("You have ended up in a cold desert. To keep warm you by a blanket for 20");
+                System.out.println("You ended up in a cold desert. To keep warm you buy a blanket for 20");
                 Money = -20;
                 break;
 
 
             case 6:
-                System.out.println("You have helped building a walled city, and as pay you get 180");
+                System.out.println("You have helped building a city, and as pay you get 180");
                 Money = 180;
                 break;
 
             case 7:
-                System.out.println("It is getting very late, so you find a monostary where you can stay overnight for free");
+                System.out.println("It is getting very late, you rest in a nearby monastery for free");
                 Money = 0;
                 break;
 
@@ -47,17 +43,17 @@ public class Field
                 break;
 
             case 10:
-                System.out.println("???");
+                System.out.println("You accidentially drove into the white house, you pay 80");
                 Money = -80;
                 break;
 
             case 11:
-                System.out.println("You have fallen down the pit. in you fall you lost 50");
+                System.out.println("You have fallen down the pit. During the fall you lost 50");
                 Money = -50;
                 break;
 
             case 12:
-                System.out.println("You have inherited a goldmine that will make rich very fast. Till a start you get 650");
+                System.out.println("You have inherited a goldmine which earns you 650");
                 Money = 650;
                 break;
 
