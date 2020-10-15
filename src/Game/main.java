@@ -22,8 +22,18 @@ public class main {
                 dicevalue = d1.rollDice() + d2.rollDice();
                 if (dicevalue > 12)
                 {
-
+                    dicevalue = dicevalue % 12;
                 }
+                //INDSÆT SWITCH STATEMENT HER:
+            }
+            else //spiller 2:
+            {
+                dicevalue = d1.rollDice() + d2.rollDice();
+                if (dicevalue > 12)
+                {
+                    dicevalue = dicevalue % 12;
+                }
+                //INDSÆT SWITCH STATEMENT HER:
             }
         }
     }
