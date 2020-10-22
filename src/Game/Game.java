@@ -26,7 +26,12 @@ public class Game {
                 if (scan.next().toLowerCase().equals("roll")) { //write roll into console to throw dices.
                     dicevalue = d1.rollDice() + d2.rollDice(); //checking for sum of dices.
                     if (dicevalue > 12) { //it is possible to have an unlimited dice value, but the board only has 12 fields.
-                        dicevalue = (dicevalue % 12) + 1; //example: you roll 40 which is the same as rolling a 4. (When you reach the limit on the board you go back to field number 2).
+                        if (dicevalue % 12 == 0) {
+                            dicevalue = 12;
+                        }
+                        else {
+                            dicevalue = (dicevalue % 12) + 1; //example: you roll 40 which is the same as rolling a 4. (When you reach the limit on the board you go back to field number 2).
+                        }
                     }
                     System.out.println(p1.Name + " Rolls: " + dicevalue);
                     f1.fieldswitch(dicevalue); //calls what field you landed on with a sentence.
@@ -48,8 +53,13 @@ public class Game {
                 System.out.println(p2.Name + " Enter: 'roll' to roll the dice");
                 if (scan.next().toLowerCase().equals("roll")) {
                     dicevalue = d1.rollDice() + d2.rollDice();
-                    if (dicevalue > 12) {
-                        dicevalue = (dicevalue % 12) + 1;
+                    if (dicevalue > 12) { //it is possible to have an unlimited dice value, but the board only has 12 fields.
+                        if (dicevalue % 12 == 0) {
+                            dicevalue = 12;
+                        }
+                        else {
+                            dicevalue = (dicevalue % 12) + 1; //example: you roll 40 which is the same as rolling a 4. (When you reach the limit on the board you go back to field number 2).
+                        }
                     }
                     System.out.println(p2.Name + " Rolls: " + dicevalue);
                     f1.fieldswitch(dicevalue);
