@@ -3,7 +3,16 @@ package Game;
 public class Language {
 
     String lang;
-    String[] dk = {"test", "test2"};
+    //array that stores string in danish
+    String[] dk = {"Skriv venligst hvor mange sider din terning skal have: ", "Skriv spiller 1's navn: ", "Skriv spiller 2's navn",
+    "Skriv: 'slå' for at slå med terningen", "slå", " Slår: ", " Point: ", "Du vinder!", "Spillet er slut",
+    "Du faldt ned i et krater, og skal betale for at komme op. Du betaler 100",
+    "Du står forand paladsets porte, og finder en guld mønt. Den sælger du for 100",
+    "Du ender i en kold ørken. For at varme dig køber du et tæppe til 20", "Du har hjulpet med at bygge byen, og som betaling for du 180",
+    "Det er ved at blive set, du sover gratis i et kloster", "Du er faret vild i en mørk grotte. Du bruger din lighter som lys. Den koster 70 at fylde op",
+    "Du har hjulpet til med at bygge en bjerghytte. Du får 60 for dit arbejde", "Ved et uheld kører du ind i det hvide, De koster 60",
+    "Du er faldet ned i hullet. Du tabte 50 under faldet", "Du har arvet en guldmine. Dette giver 650",
+    "Du klatre op i det højeste tårn i landet. På toppen finder du 250"};
 
     //array that store strings in english
     String[] eng = {"Please enter the amount of sides you wish your dice to have: ", "Enter player 1's name: ",

@@ -5,10 +5,14 @@ import java.util.Scanner;
 public class Game {
     public static void TheGame() {
         int dicevalue;
+        String lang;
         Scanner scan = new Scanner(System.in);
         Dice d1 = new Dice(1);
         Dice d2 = new Dice(1);
-        Language langSelector = new Language("eng");
+        System.out.println("Enter the language that you prefer/Skriv sproget du ønsker");
+        System.out.println("Enter 'eng' for english/Skriv 'dk' for dansk" );
+        lang = scan.nextLine();
+        Language langSelector = new Language(lang);
         String[] currentLang = langSelector.returnLang();
         Field f1 = new Field(currentLang);
         System.out.println(currentLang[0]);
