@@ -1,6 +1,7 @@
 package Game;
 public class Field
 {
+
     int Money = 0;
     public String fieldswitch(int n)
     {
