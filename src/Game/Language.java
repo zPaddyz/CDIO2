@@ -1,5 +1,5 @@
 package Game;
-
+//Class that takes care of language support by returning the array that holds the wanted language
 public class Language {
 
     String lang;
@@ -30,7 +30,7 @@ public class Language {
     public Language(String lang) {
         this.lang = lang;
     }
-    //Method that takes in the system language and returns the correct string array to display console text
+    //Method that takes in a language choice as a string and returns the correct string array to display console text
     public String[] returnLang() {
         switch (this.lang){
 
