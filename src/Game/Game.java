@@ -8,9 +8,9 @@ public class Game {
         Scanner scan = new Scanner(System.in);
         Dice d1 = new Dice(1);
         Dice d2 = new Dice(1);
-        Field f1 = new Field();
         Language langSelector = new Language("eng");
         String[] currentLang = langSelector.returnLang();
+        Field f1 = new Field(currentLang);
         System.out.println(currentLang[0]);
         d1.setMAX(scan.nextInt()); //initiates how many sides the dices in the game should have.
         d2.setMAX(d1.getMAX());
