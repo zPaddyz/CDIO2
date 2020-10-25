@@ -10,7 +10,7 @@ public class Language {
     "Du står foran paladsets porte, og finder en guldmønt. Den sælger du for 100",
     "Du ender i en kold ørken. For at varme dig køber du et tæppe til 20", "Du har hjulpet med at bygge byen, og som betaling for du 180",
     "Det er ved at blive sent, du sover gratis i et kloster", "Du er faret vild i en mørk grotte. Du bruger din lighter som lys. Den koster 70 at fylde op",
-    "Du har hjulpet til med at bygge en bjerghytte. Du får 60 for dit arbejde", "Ved et uheld kører du ind i det hvide hus. Det koster 60",
+    "Du har hjulpet til med at bygge en bjerghytte. Du får 60 for dit arbejde", "Du er nødt til at klatre over varulvemuren. Du må betale 80 for stormhat-eliksir.",
     "Du er faldet ned i hullet. Du tabte 50 under faldet", "Du har arvet en guldmine. Dette giver 650",
     "Du klatrer op i det højeste tårn i landet. På toppen finder du 250"};
 
@@ -22,7 +22,7 @@ public class Language {
             "You ended up in a cold desert. To keep warm you buy a blanket for 20",
             "You have helped building a city, and as payment you get 180", "It is getting very late, you rest in a nearby monastery for free",
             "You have gotten lost in a black cave. To get out you use your lighter that you later will have to refill for 70",
-            "You have helped building huts in the mountains. For your work you get 60", "You accidentally drove into the white house, you pay 80",
+            "You have helped building huts in the mountains. For your work you get 60", "You need to climb over the Werewall, you have to pay 80 for wolfsbane potion",
             "You have fallen down the pit. During the fall you lost 50", "You have inherited a goldmine which earns you 650",
             "You climb the highest tower in the country, and at the top you find 250"};
 
