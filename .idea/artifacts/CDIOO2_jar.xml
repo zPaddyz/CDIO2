@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CDIOO2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CDIOO2_jar</output-path>
+    <root id="archive" name="CDIO2.jar">
+      <element id="module-output" name="CDIO2" />
+    </root>
+  </artifact>
+</component>

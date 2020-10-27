@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Game {
     public static void TheGame() {
-        int dicevalue;
-        String lang;
+        int dicevalue, toint = 0;
+        String lang, diceScan;
         Scanner scan = new Scanner(System.in);
         Dice d1 = new Dice(1);
         Dice d2 = new Dice(1);
@@ -16,7 +16,29 @@ public class Game {
         String[] currentLang = langSelector.returnLang();
         Field f1 = new Field(currentLang);
         System.out.println(currentLang[0]);
-        d1.setMAX(scan.nextInt()); //initiates how many sides the dices in the game should have.
+        while (true)
+        {
+             diceScan = scan.nextLine();
+            try {
+                toint = Integer.parseInt(diceScan);
+                if (toint > 0)
+                {
+                    if (toint > Integer.MAX_VALUE/2)
+                    {
+                        System.out.println("tallet for stort");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+            catch (NumberFormatException e)
+            {
+                System.out.println("prøv igen");
+            }
+        }
+        d1.setMAX(toint); //initiates how many sides the dices in the game should have.
         d2.setMAX(d1.getMAX());
         Player p1 = new Player(); //player object
         Player p2 = new Player();
