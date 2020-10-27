@@ -21,21 +21,18 @@ public class Game {
              diceScan = scan.nextLine();
             try {
                 toint = Integer.parseInt(diceScan);
-                if (toint > 0)
+                if (toint > 0 && toint <= 1073741823)
                 {
-                    if (toint > Integer.MAX_VALUE/2)
-                    {
-                        System.out.println("tallet for stort");
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    break;
+                }
+                else
+                {
+                    System.out.println(currentLang[21]);
                 }
             }
             catch (NumberFormatException e)
             {
-                System.out.println("prøv igen");
+                System.out.println(currentLang[20]);
             }
         }
         d1.setMAX(toint); //initiates how many sides the dices in the game should have.
