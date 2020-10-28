@@ -2,7 +2,7 @@ package Game;
 
 public class Dice {
 
-    private int MAX = 6; // max value of a die
+    private int MAX = 0; // max value of a die
     private int faceValue; // value of the die
 
     // constructor for retrieval of the value of a die
