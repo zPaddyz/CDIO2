@@ -27,4 +27,5 @@ public class Player {
         this.hasTurn = hasTurn;
     }
     Wallet wallet = new Wallet();
+
 }

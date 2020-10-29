@@ -2,7 +2,7 @@ package Game;
 
 public class Wallet {
     //point is used to manage our players score
-    private int point = 0;
+    private int point = 1000;
 
 
     public Wallet(){
