@@ -11,7 +11,7 @@ class WalletTest {
         Wallet w1 = new Wallet();
         w1.setPoint(500);
         w1.setPoint(500);
-        assertEquals(1000, w1.getPoint());
+        assertEquals(2000, w1.getPoint());
         w1.setPoint(-50000);
         assertEquals(0,w1.getPoint());
     }
@@ -19,6 +19,6 @@ class WalletTest {
     @Test
     void getPoint() {
         Wallet w1 = new Wallet();
-        assertEquals(0, w1.getPoint());
+        assertEquals(1000, w1.getPoint());
     }
 }
