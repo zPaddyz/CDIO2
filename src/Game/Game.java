@@ -11,7 +11,7 @@ public class Game {
         Dice d2 = new Dice(1);
         System.out.println("Enter the language that you prefer/Skriv sproget du ønsker");
         System.out.println("Enter 'eng' for english/Skriv 'dk' for dansk" );
-        lang = scan.nextLine();
+        lang = scan.nextLine().toLowerCase();
         Language langSelector = new Language(lang);
         String[] currentLang = langSelector.returnLang();
         Field f1 = new Field(currentLang);
