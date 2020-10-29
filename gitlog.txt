@@ -1,0 +1,41 @@
+Merge remote-tracking branch 'origin/language' into language [zPaddyz] Today 10:51
+ændring af test Sealnpenguin Today 10:50
+Indsat to lower case funktion til lang selector [zPaddyz] Today 10:49
+Ændrede start beløb i wallet til 1000 igen Sealnpenguin Today 10:43
+Har tilføjet tests til alle klasser på nær game. Sealnpenguin Yesterday 14:05
+try, exception, input for stor værdi Martin 27-10-2020 17:07
+try, exception, input for stor værdi Martin 27-10-2020 16:38
+Werewall rettelse. ASBP 25-10-2020 13:41
+Mindre sproglige rettelser. ASBP 25-10-2020 13:17
+Some minor changes to comments Sealnpenguin 23-10-2020 12:48
+translated the english array to danish and made a language choice in the start og the game Sealnpenguin 23-10-2020 12:42
+Changed fields so it uses the language class to get the text to print Sealnpenguin 23-10-2020 12:20
+added instance of language to Game and got the prints not in Field to work Sealnpenguin 23-10-2020 12:03
+Added the language class that is responsible for storing and sending language arrays around Sealnpenguin 23-10-2020 11:29
+Commit tekst fra sidste push høre med til den her zPadduz 22-10-2020 21:20
+Lavet en Jar fil til spillet og lavet en .bat fil for at køre det så man ikke behøver at skrive i konsolen zPadduz 22-10-2020 21:19
+Modulus formel ændret hvis man slår 24, 36, 48 osv.. Martin 22-10-2020 15:38
+Modulus formel ændret så det giver den rigtige sum Martin 22-10-2020 15:22
+Kommenteret kode i game flow Martin 18-10-2020 11:09
+ændring game methode til TheGame for at undgå fejlmeddelse [zPaddyz] 15-10-2020 13:36
+Små ændringer i field, oprettet Game klasse og flyttet alt fra main til game og kaldt game methoden i main. [zPaddyz] 15-10-2020 13:35
+Tilføjet < 0 krav [zPaddyz] 15-10-2020 13:07
+Mangler: ikke minus Martin 15-10-2020 13:00
+Merge remote-tracking branch 'origin/Development' into Development Martin 15-10-2020 12:18
+Switch Main modulus Martin 15-10-2020 12:18
+Ændret i teksten SAA.DK 15-10-2020 12:05
+Merge remote-tracking branch 'origin/Development' into Development [zPaddyz] 15-10-2020 11:59
+Testet wallet og fjernet unødvendig kode [zPaddyz] 15-10-2020 11:59
+Merge remote-tracking branch 'origin/Development' into Development Martin 15-10-2020 11:56
+Player Main Martin 15-10-2020 11:56
+Create Field.java SAA-DK* 15-10-2020 11:53
+Oprettet wallet object i Player [zPaddyz] 15-10-2020 11:51
+Merge remote-tracking branch 'origin/Development' into Development [zPaddyz] 15-10-2020 11:49
+Lavet en Wallet klasse [zPaddyz] 15-10-2020 11:48
+Player Main Martin 15-10-2020 11:48
+Dice og main Martin 15-10-2020 11:37
+Tilføjet player klasse fra cdio 1 [zPaddyz] 15-10-2020 11:34
+player class Martin 15-10-2020 10:51
+player class Martin 15-10-2020 10:39
+player class Martin 15-10-2020 10:37
+Initial commit [zPaddyz] 15-10-2020 10:26
